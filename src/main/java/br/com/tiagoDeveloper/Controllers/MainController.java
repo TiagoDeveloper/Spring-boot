@@ -14,4 +14,9 @@ public class MainController {
 	            "<a href='http://netgloo.com/en'>Netgloo</a> :)";
 	}
 	
+	@RequestMapping("/teste")
+	public String home(){
+	    return "teste";
+	}
+	
 }
